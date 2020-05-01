@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="yandex-verification" content="838ea554c8870fbc"><!--metatextblock-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+ <title>KiKi_Play</title>
+ <style>
+ 
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  background:lightblue;
+  color:black;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  display: flex;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 20%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
+img{
+	border: 3px solid black;
+}
+#p10{
+  background-image:url(pobrane.png);
+  color: lime;
+  font-size: 150%
+}
+#p11{
+  background-color: white;
+  width: 1300px;
+  border: 3px solid green;
+  padding: 5px;
+  margin: 2px;
+  text-align: center;
+  color:black;
+}
+.active {
+  background-color: red;
+}
+#p12{
+  background-color: blue;
+}
+#p13{
+  background-color:purple;
+}
+#p14{
+  background-color:violet;
+}
+</style>
+</head>
+<body>
+<div style="background:violet;padding:5px">
+  <h4 style="text-align:center">Welcome!</h4>
+</div>
+
+<!-- Header -->
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Без имени-2.jpg" alt="picture1" width="1450px" height="1000px">
+      <div class="carousel-caption">
+        <h3>Welcome </h3>
+        <p>to site of KiKi_Play</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="fortnite.jpg" alt="picture2" width="1450px" height="1000px">
+      <div class="carousel-caption">
+        <h3>Here</h3>
+        <p>you can find out my biography</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="1280px-YouTube_full-color_icon_(2017).svg.png" alt="picture3" width="1450px" height="1000px">
+      <div class="carousel-caption">
+        <h3>And</h3>
+        <p>other information</p>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<!-- Navigation Bar -->
+<div class="navbar">
+  <a href="web site.html" class="active">Home</a>
+  <a href="about me.html" id="p12">About me</a>
+  <a href="advertising.html" id="p13">Advertisment</a>
+  <a href="https://www.youtube.com/channel/UCRo_PwrvlGZIM4_1qmT21KQ?view_as=subscriber" id="p14" target="blank">YouTube Channel</a>
+</div>
+
+<!-- The flexible grid (content) -->
+<div class="row">
+  <div class="side">
+    <h2>About Me</h2>
+    <h5>Photo of me:</h5>
+    <img src="me.jpg" width="250px" height="300px">
+    <p>My real name is Kiril Vandzhurak. I'm from...</p>
+    <h3>Languages</h3>
+    <p>languages that I can speak</p>
+    <img src="1280px-Flag_of_Russia.jpg" width="350px" height="200px">
+    <img src="polish.jpg" width="350px" height="200px">
+    <img src="britan.jpg" width="350px" height="200px">
+ </div>
+  <div class="main" style="background-image:url(violet.jpg)">
+    <h2>MY FIRST LOGO</h2>
+    <h5>It was produced on 29 of august 2019</h5>
+    <img src="Без имени-3.jpg" width="400px" height="400px">
+    <img src="IMG_0851.jpeg" width="550px" height="400px">
+    <p>Origin history</p>
+    <p>First name of my YouTube channel was Lalochka. And my channel had another logo than that. On my first logo was shown my portriet in comics style.
+    <br>But after some time, I have deicded to change channel name and logo. In childhood my parents used to call me KiKi. 
+    <br>So in that way I've got a KiKi_Play YouTube channel:)</p>
+    <h2>TYPES OF VIDEO</h2>
+    <img src="pobrane.png" width="900px" height="200px">
+    <p>What types of video you can find on my channel?</p>
+    <p>Here you can find:
+       <ul>
+     <li>Sketches</li>
+     <li>Parodies</li>
+     <li>Reactions</li>
+     <li>Let's Play</li>
+     <li>First view videos</li>
+       </ul></p>
+  </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  <h2>KiKi_Play</h2>
+</div>
+</body>
+</html>
